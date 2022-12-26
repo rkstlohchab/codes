@@ -14,3 +14,9 @@ parent collapse na ho uska lia -
 clear last m krna hoga 
 
 
+position -
+relative : occupy space and chages relative to its original position
+fixed :
+absolute : doesnt occupy space and change acc to its parent position jisko humne position di ho 
+
+
