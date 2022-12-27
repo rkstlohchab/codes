@@ -11,6 +11,11 @@ int main()
         cin>>arr[i];
     }
 
-    for(int i=0; i<n-i)
+    int max = INT_MIN;
+
+    int count = 1;
+
+    for(int i=0; i<n-count; i++){
+    };
     return 0;
 }
