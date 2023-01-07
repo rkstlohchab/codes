@@ -17,7 +17,6 @@ clear last m krna hoga
 
 position -
 relative : occupy space and chages relative to its original position
-fixed :
+fixed : navbaar m aur zindex dena pdega aur top 0
 absolute : doesnt occupy space and change acc to its parent position jisko humne position di ho 
-
-
+sticky : 

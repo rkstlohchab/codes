@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;
+    height: 20px;
+    background-color: aquamarine;
+    padding: 10px;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+}
+
+.navElement {
+    margin-right: 15px;
+}
+
+.navElement:link {
+    text-decoration: none;
+    color: black;
+}
+
+.navElement:visited {
+    color: brown;
+}
+
+.navElement:hover {
+    text-decoration: underline;
+}
+
+.container {
+    margin: 80px;
+}
+.alphabet,
+.names {
+    border: 1px solid black;
+}
+.alphabet {
+    text-align: center;
+    background-color: orange;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.phonebook {
+    height: 300px;
+    overflow: auto;
+}

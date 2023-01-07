@@ -1,0 +1,10 @@
+overflow : auto;
+
+
+position
+sticky : jitne pixel define krdege utne pe rukjayega
+fixed aur absolute se alg plane m ajata h 
+
+
+flexbox
+parent ka display flex krdege to uska child flexbox k acc kaam krege 

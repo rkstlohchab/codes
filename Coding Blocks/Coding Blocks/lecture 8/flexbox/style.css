@@ -1,13 +1,14 @@
-.grandfather,
-.father,
-.child {
-    min-height: 150px;
-    padding: 20px;
-    border: 1px solid black;
+.item {
+    background-color: orangered;
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-size: 20px;
+    margin: 5px;
 }
 
-.btn {
-    position: relative;
-    top: 50px;
-    left: 100px;
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
 }
