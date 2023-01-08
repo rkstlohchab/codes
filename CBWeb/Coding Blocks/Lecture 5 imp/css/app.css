@@ -1,0 +1,14 @@
+.myList{
+    border: 2px solid blue;
+    width: 250px;
+    margin: auto;
+}
+
+.list-items {
+    border: 1px solid red;
+    background-color: aqua;
+}
+
+li+li{
+    margin-top: 5px;
+}
