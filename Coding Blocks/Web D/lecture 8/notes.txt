@@ -8,3 +8,16 @@ fixed aur absolute se alg plane m ajata h
 
 flexbox
 parent ka display flex krdege to uska child flexbox k acc kaam krege 
+
+.navbar {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
