@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0 110px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 3fr 1fr;
+    height: 140px;
+    margin: auto;
+}
+
+
+.categories {
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    gap: 10px 20px;
+    align-items: center;
+    border-top: 2px solid #ccc;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.todaysDate {
+    font-weight: 800;
+}
+
+.flexbox {
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.icons {
+    width: 100%;
+}
+
+.dateDetails {
+    font-size: 12px;
+}
+
+.date {
+    padding: 10px
+}
+
+
+.flexNewyorkTimes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    height: 100%;
+}
+
+.languages {
+    width: 100%;
+    /* border: 1px solid orange; */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 9px;
+}
+
+.international {
+    font-weight: 800;
+}
+
+.subscribeButtons,
+.weatherForecast {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.navButton {
+    background-color: rgb(86, 123, 149);
+    border: 1px solid rgb(86, 123, 149);
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+    font-weight: 600;
+    font-size: 10px;
+}
+
+.subscribeButtons {
+    margin-top: 10px;
+}
+
+
+.magazine {
+    border-right: 2px solid #ccc;
+    padding-right: 25px;
+}
+
+.hr {
+    width: 97%;
+}
+
+.categoryItem {
+    font-size: 12px;
+}
+
+.containerNewsArticle {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.newsSectionA {
+    width: 69%;
+    display: inline-block;
+}
+
+.newsSectionB {
+    width: 30%;
+    display: inline-block;
+}
+
+.nsaContentA {
+    width: 30%;
+}
+
+.nsaContentB {
+    width: 69%;
+    border: 1px solid red;
+}
+
+.newsSectionA_1 {
+    display: flex;
+}
