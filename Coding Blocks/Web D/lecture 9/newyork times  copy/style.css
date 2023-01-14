@@ -103,6 +103,12 @@ body {
 
 .hr {
     width: 97%;
+
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .categoryItem {
@@ -111,28 +117,84 @@ body {
 
 .containerNewsArticle {
     width: 100%;
-    border: 1px solid black;
+    margin-top: 10px;
 }
 
 .newsSectionA {
     width: 69%;
     display: inline-block;
+    float: left;
 }
 
 .newsSectionB {
     width: 30%;
     display: inline-block;
-}
-
-.nsaContentA {
-    width: 30%;
-}
-
-.nsaContentB {
-    width: 69%;
-    border: 1px solid red;
+    float: right;
 }
 
 .newsSectionA_1 {
     display: flex;
+    border-right: 2px solid #ccc;
+    padding-right: 10px;
+    margin-bottom: 15px;
+    gap: 10px;
+}
+
+.nsaContentA {
+    width: 40%;
+    float: left;
+}
+
+.nsaContentAImg {
+    width: 60%;
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.nsaContentAImg small {
+    float: right;
+    font-size: 10px;
+    color: rgb(93, 93, 93);
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.newsSectionsA_2 {
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    grid-template-rows: minmax(30px, 1fr) minmax(30px, 1fr);
+    grid-template-areas:
+        "news1 news2"
+        "news3 news2"
+    ;
+    gap: 20px 10px;
+    border-right: 2px solid #ccc;
+    padding-right: 10px;
+    margin-bottom: 15px;
+}
+
+.secA_2_1 {
+    grid-area: news1;
+    border-bottom: 2px solid #ccc;
+}
+
+.secA_2_2 {
+    grid-area: news2;
+
+
+}
+
+.secA_2_3 {
+    grid-area: news3;
+
+
+}
+
+h3 {
+    margin-bottom: 10px;
 }
