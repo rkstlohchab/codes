@@ -1,0 +1,12 @@
+transform 
+
+.div:hover {
+    transform: rotateZ ya rotateY(45deg)
+    scaleX ya Y aur agr koi na dia ho toh x y dono se scale hojayga;
+     transition-timing-function: ease-in(dhere start)
+                                 cubic beizer;
+}
+
+perspective {
+    
+}
