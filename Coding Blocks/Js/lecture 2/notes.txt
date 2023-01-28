@@ -1,0 +1,7 @@
+var aur functions hoist hote h 
+
+let a1 = "Let ka lexical scope hota h which is unaccesible"
+
+function k andr agr func call kia h toh woh sidha call hoke output dedega
+pr agr function k andr function return k aga krege toh usko call krege toh uski value return hogi
+
