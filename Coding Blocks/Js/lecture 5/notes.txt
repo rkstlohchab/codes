@@ -1,0 +1,3 @@
+number.tostring() dusre numver m convert krdega 
+
+.indexof()
