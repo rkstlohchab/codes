@@ -13,7 +13,7 @@ function download(url){
         },3000);
     })
 }
-
+z
 function compress(movieName){
     console.log("Compression starts "+movieName);
     return new Promise((resolve,reject)=>{
