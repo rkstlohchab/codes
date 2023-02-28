@@ -30,30 +30,31 @@ class Vehicle{
     }
     // _
 }
-class Car extends Vehicle(){
-    constructor(name,year,speed,price,type){
-        super(name,year,speed,price);
-        this.type = type;
-    }
+// class Car extends Vehicle(){
+//     constructor(name,year,speed,price,type){
+//         super(name,year,speed,price);
+//         this.type = type;
+//     }
 
-    printType(){
-        console.log("type of car", type)
-    }
-}
+//     printType(){
+//         console.log("type of car", type)
+//     }
+// }
 
 let v = new Vehicle("Alto", 2022, 160);
-console.log(v);
+// console.log(v);
 
-let v1 = new Vehicle("G-Wagon", 2023,140);
-console.log(v1);
+// let v1 = new Vehicle("G-Wagon", 2023,140);
+// console.log(v1);
 
 // console.log(v1.__proto__ == Vehicle.prototype) //true
 
+v.print()
 
 
-let c = new Car("alto",2020,206,200,"suv")
+// let c = new Car("alto",2020,206,200,"suv")
 
-console.log(c);
-c.isMehngi();
+// console.log(c);
+// c.isMehngi();
 
 // console.log(Car.prototype.__proto__ == Vehicle.prototype)
