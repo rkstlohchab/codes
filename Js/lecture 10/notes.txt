@@ -1,1 +1,15 @@
 create element - document.createElelment('li');
+
+//onload html k baad load hoga ya fir defer krdege 
+window.onload = function(){
+
+    // Select and elemetn
+    let elements = document.getElementsByTagName('div');
+    console.log(elements)
+
+}
+
+insetion in dom 
+i) create a element
+    ->document.createElelment("tag")
+    li = document.createElelment('li');

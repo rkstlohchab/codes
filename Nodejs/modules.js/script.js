@@ -1,0 +1,1 @@
+const lib1 = require('./lib1')
