@@ -37,12 +37,11 @@ const prevSong = ()=>{
     playMusic()
 }
 
-const playMusic = (ev)=>{
+const playMusic = ()=>{
     isPlaying = true;
     loadsongsArray(songsArray[sngIndx])
     audio.play()
     play.classList.replace('fa-play',"fa-pause")
-
 }
 
 const pauseMusic = ()=>{
@@ -50,6 +49,8 @@ const pauseMusic = ()=>{
     loadsongsArray(songsArray[sngIndx])
     audio.pause();
     play.classList.replace('fa-pause',"fa-play")
+    console.log(localStorage.getItem("currentTime"))
+
 }
 
 
@@ -81,6 +82,8 @@ let isPlaying = false;
 play.addEventListener("click",()=>{
     let x = parseFloat(localStorage.getItem("currentTime"))
     audio.currentTime = x;
+
+    console.log("x",x)
     if(isPlaying==true){
         pauseMusic()
     }
@@ -92,8 +95,9 @@ play.addEventListener("click",()=>{
 
 audio.addEventListener('timeupdate',(ev)=>{
     let currentTime = ev.srcElement.currentTime;
+    console.log("ct",currentTime)
     if (currentTime != 0){
-        localStorage.setItem("currentTime",currentTime)    
+        localStorage.setItem("currentTime",currentTime)   
     }
 })
 
