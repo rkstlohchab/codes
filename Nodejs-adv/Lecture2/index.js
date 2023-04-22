@@ -19,6 +19,7 @@ app.get('/gettask',(req,res)=>{
     console.log(req.query);
     tasks.push(req.query.task);
     res.send("Recieved add task request");
+    req.redirect("/")
 })
 
 app.listen(PORT,()=>{
