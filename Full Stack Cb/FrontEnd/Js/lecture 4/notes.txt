@@ -1,0 +1,5 @@
+async ko syncronos way m execute krna ho toh 3 methods hote hai 
+
+1. Callbacks
+2. Promises
+3. Async-Await

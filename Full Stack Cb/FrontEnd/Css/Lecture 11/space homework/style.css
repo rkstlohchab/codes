@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.rocket {
+    position: relative;
+    top: 600px;
+    left: 10px;
+    transform: rotate(45deg);
+    animation-name: rocket;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-duration: 2.5s;
+
+}
+
+@keyframes rocket {
+    0% {
+        top: 600px;
+    }
+
+    25% {
+        top: 550px;
+    }
+
+    50% {
+        top: 600px;
+    }
+
+    75% {
+        top: 550px;
+    }
+    100% {
+        top:600px;
+        left: 1200px;
+
+    }
+}
+
+.space {
+    position: absolute;
+    background-color: black;
+}

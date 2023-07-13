@@ -1,8 +1,0 @@
-bindigs -
-        this -> keyword ->context of program
-        program kis scope m run hora ha
-
-
-implicit - obj.function(this) // ye this obj ko point krega
-explicit - .call .bind .apply
-newkeyword
